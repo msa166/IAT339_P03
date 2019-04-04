@@ -3,9 +3,9 @@
   Default styling for the style guide
 */
 
-*{
+/* *{
   border: 1px solid red;
-}
+} */
 
 body {
   margin: 0;
@@ -93,15 +93,8 @@ header {
 }
 
 .nav-menu a:hover{
-  /* color: #0124d2; */
   color: #729EA1;
-  /* border-bottom: 0.2rem #64B6AC solid; */
 }
-
-/* .nav-menu a:active{
-  color: #729EA1;
-  border-top: 0.2rem #64B6AC solid;
-} */
 
 .active {
   color: #729EA1;
@@ -149,13 +142,7 @@ h1 {
   color: #213C3D;
 }
 
-
-h2 {
-  /* margin-top: 6rem; */
-}
-
 h3 {
-  /* font-style: italic; */
   margin-top: 1rem;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 1.5em;
@@ -171,10 +158,6 @@ p {
   font-size: 0.9rem;
   font-family: 'Raleway', sans-serif;
 }
-
-/* nav a:hover, nav a:focus {
-  text-decoration: none;
-} */
 
 code {
   background-color: #EEE;
@@ -227,7 +210,6 @@ code {
 }
 
 .text {
-  /* font-family: 'Raleway', sans-serif; */
   font-family: 'Alegreya Sans SC', sans-serif;
   color: #F4F8F6;
   font-size: 20px;
